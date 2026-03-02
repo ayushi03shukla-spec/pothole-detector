@@ -195,28 +195,6 @@ PotholeAI aims to bridge the gap between AI and public infrastructure by creatin
 
 The long-term goal is to enable real-time road health monitoring systems that improve public safety and infrastructure efficiency.
 
-👩‍💻 Author
 
-Ayushi Shukla
-Front-End & Machine Learning Developer
-Building AI for social impact and smart infrastructure.
 
-📜 License
 
-This project is open-source for educational and research purposes.
-
-🚀 What This README Does
-
-This makes your project look:
-
-Professional
-
-Scalable
-
-Startup-oriented
-
-Technically strong
-
-Vision-driven
-
-Not just “CNN pothole classifier”.
