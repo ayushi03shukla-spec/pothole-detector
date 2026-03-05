@@ -1,7 +1,12 @@
 streamlit
-tensorflow
+tensorflow==2.13.0
 numpy
 pandas
 folium
 streamlit-folium
 geopy
+plotly
+firebase-admin
+streamlit-google-auth
+PyJWT
+requests
