@@ -6,7 +6,6 @@ folium
 streamlit-folium
 geopy
 plotly
-firebase-admin==6.2.0
-streamlit-google-auth
-PyJWT
 requests
+PyJWT
+streamlit-google-auth
