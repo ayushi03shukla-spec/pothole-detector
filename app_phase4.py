@@ -1,4 +1,10 @@
-from firebase_client import save_detection, fetch_detections
+try:
+    from firebase_client import save_detection, fetch_detections
+    FIREBASE_AVAILABLE = True
+except Exception:
+    FIREBASE_AVAILABLE = False
+    def save_detection(x): pass
+    def fetch_detections(**kwargs): return []
 import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
