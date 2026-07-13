@@ -1,7 +1,7 @@
 import streamlit as st
 
 try:
-    from firebase_client import save_detection, fetch_detections
+    from utils.firebase_client import save_detection, fetch_detections
     FIREBASE_AVAILABLE = True
 except Exception:
     FIREBASE_AVAILABLE = False
